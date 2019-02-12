@@ -5,4 +5,4 @@ Image colorization using OpenCV DNN.
 1. https://www.cs.huji.ac.il/~yweiss/Colorization/colorization-siggraph04.pdf.  
 
 ## Architecture:-
-![Optional Text](../master/image.png)
+![Optional Text](../master/architecture.png)
