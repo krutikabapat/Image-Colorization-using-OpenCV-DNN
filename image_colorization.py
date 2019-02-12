@@ -1,3 +1,5 @@
+# source: learnopencv.com
+
 import cv2
 import numpy as np
 
@@ -34,6 +36,4 @@ ab_dec_us = cv2.resize(ab_dec, (W_orig, H_orig))
 img_lab_out = np.concatenate((img_l[:,:,np.newaxis],ab_dec_us),axis=2) # concatenate with original image L
 img_bgr_out = np.clip(cv2.cvtColor(img_lab_out, cv2.COLOR_Lab2BGR), 0, 1)
  
-#cv2.imwrite('/home/krutika/Documents/Image_Colorization/dog_colorized.png', cv2.resize(img_bgr_out*255, imshowSize))
-#outputFile = args.input[:-4]+'_colorized.png'
-cv2.imwrite('/home/krutika/Documents/Image_Colorization/dog_colorized.png', (img_bgr_out*255).astype(np.uint8))
+cv2.imwrite('./dog_colorized.png', (img_bgr_out*255).astype(np.uint8))
