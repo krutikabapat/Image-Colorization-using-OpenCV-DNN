@@ -9,3 +9,6 @@ Image colorization using OpenCV DNN.
 
 ## Architecture:-
 ![Optional Text](../master/architecture.png)
+
+
+## Technique used:-
