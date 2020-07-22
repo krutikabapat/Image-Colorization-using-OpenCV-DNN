@@ -8,7 +8,5 @@ Image colorization using OpenCV DNN.
 1. https://www.learnopencv.com/convolutional-neural-network-based-image-colorization-using-opencv/
 
 ## Architecture:-
-![Optional Text](../master/architecture.png)
+![Optional Text](../master/architecture.png)    
 
-
-## Technique used:-
