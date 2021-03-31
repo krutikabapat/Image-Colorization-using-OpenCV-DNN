@@ -10,3 +10,10 @@ Image colorization using OpenCV DNN.
 ## Architecture:-
 ![Optional Text](../master/architecture.png)    
 
+## Results:-    
+
+### Input Image
+![Screenshot](https://github.com/krutikabapat/Image-Colorization-using-OpenCV-DNN/blob/master/lighthouse.jpg)   
+
+### Output Image    
+![Screenshot](https://github.com/krutikabapat/Image-Colorization-using-OpenCV-DNN/blob/master/lighthouse.png)    
